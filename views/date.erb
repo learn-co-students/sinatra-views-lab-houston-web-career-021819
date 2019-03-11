@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+  <html>
+    <h1>Today</h1>
+    <% current_date = "#{Date.today.strftime("%A")}, #{Date.today.strftime("%B")} #{Date.today.day}, #{Date.today.year}"%>
+    <p><%= "The date is #{current_date}" %></p>
+  </html>
